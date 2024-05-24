@@ -23,9 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const negacao = document.getElementById("negacao");
 
     confirmacao.addEventListener("click", () => {
-      const valeBeijos = encodeURIComponent(`Oi, eu aceito o convite, 
-            e gostaria de gastar o meu vale5beijos. 
-            Quando podemos fazer algo divertido juntos?`);
+      const valeBeijos = encodeURIComponent(`Oi, eu aceito o convite, e gostaria de gastar o meu vale5beijos. Quando podemos fazer algo divertido juntos?`);
 
       window.location.href = `https://wa.me/5511981742970?text=${valeBeijos}`;
     });
