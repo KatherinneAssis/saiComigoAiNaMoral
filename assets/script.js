@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (nomeCrushkk) {
     alert(`Aprovado! ${nomeCrushkk}, você é único(a)! 🌟`);
-    // Cria e insere o conteúdo HTML dinâmico
     document.body.innerHTML = `
             <div class="card">
                 <h1 class="title">Convite Especial</h1>
